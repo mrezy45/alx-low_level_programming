@@ -5,5 +5,5 @@ int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separetor, const unsigned int n, ...);
 void print_strings(const char *separetor, const unsigned int n, ...);
-void print all(const char* const format, ...);
+void print_all(const char* const format, ...);
 #endif 
