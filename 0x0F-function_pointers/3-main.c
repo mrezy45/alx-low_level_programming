@@ -8,12 +8,11 @@
   * @argv: ...
   *
   * Return: ...
-  *
   */
-
 int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -22,12 +21,12 @@ int main(int argc, char *argv[])
 
 	oprt = get_op_func(argv[2]);
 
-	if (!=oprt)
+	if (!oprt)
 	{
-                printf("Error\n");
-                exit(99);
-        }
-	
-	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3]));
-	return(0); 
+		printf("Error\n");
+		exit(99);
+	}
+
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
+	return (0);
 }
