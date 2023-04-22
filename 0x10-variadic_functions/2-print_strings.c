@@ -4,7 +4,7 @@
  * print_strings - Prints strings passed to the function separed by separators
  * @separator: A string that is used to separate strings
  * @n: number of unnamed parameters
- * Return: Always 0
+ * Return: Alway 0
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -17,7 +17,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	if (separator == NULL)
 		separator = "";
 
-	for (i=0; i<n; i++)
+	for (i = 0; i < n; i++)
 	{
 		str = va_arg(ap, char*);
 		if (str == NULL)
