@@ -4,10 +4,9 @@
 #include "lists.h"
 
 /**
- * list_len - returns the number ofelements in a ilinked list
+ * list_len -returns the number of elements in a linked list.
  * @h: name of the list
- * Return: the number of nodes
- *
+ * Return: the number of nodes.
  */
 size_t list_len(const list_t *h)
 {
