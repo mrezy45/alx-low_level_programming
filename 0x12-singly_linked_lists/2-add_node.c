@@ -10,7 +10,7 @@
  */
 int _strlen(const char *s)
 {
-	int = 0;
+	int i = 0;
 
 	while (s[i] !=  '\0')
 	{
@@ -18,6 +18,7 @@ int _strlen(const char *s)
 	}
 	return (i);
 }
+
 /**
  *add_node - add a new node at the beginning of list_t list.
  *@head: head of list_t list
